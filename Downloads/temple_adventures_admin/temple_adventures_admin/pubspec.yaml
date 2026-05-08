@@ -1,0 +1,102 @@
+name: temple_adventures_admin
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+25
+environment:
+  sdk: ^3.9.0
+dependencies:
+  flutter:
+    sdk: flutter
+  get_it: ^9.0.5
+  flutter_bloc: ^9.1.1
+  bloc_concurrency: ^0.3.0
+  shared_preferences: ^2.3.4
+  bloc_test: ^10.0.0
+  equatable: ^2.0.7
+  sms_autofill: ^2.4.1
+
+  # Design and UI
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.16
+  octo_image: ^2.1.0
+  cached_network_image: ^3.4.1
+  intl_phone_field: ^3.2.0
+  location: ^8.0.1
+  app_settings: ^6.1.1
+  flutter_compass: ^0.8.1
+  google_fonts: ^6.3.2
+  intl: ^0.20.2
+  image_picker: ^1.1.2
+  url_launcher: ^6.3.1
+  easy_date_timeline: ^2.0.9
+  flutter_colorpicker: ^1.1.0
+  pinput: ^5.0.0
+  flutter_speed_dial: ^7.0.0
+  package_info_plus: ^8.3.0
+  fluttertoast: ^9.0.0
+  path_provider: ^2.1.5
+  share_plus: ^12.0.1
+  google_maps_flutter: ^2.14.0
+  geolocator: ^14.0.2
+  pdf: ^3.11.0
+  flutter_keyboard_visibility: ^6.0.0
+  flutter_emoji_feedback: ^1.0.3
+  screenshot: ^3.0.0
+  http: ^1.5.0
+  barcode_widget: ^2.0.4
+  image: ^4.5.4
+  flutter_local_notifications: ^19.5.0
+
+  # Error Reporting and Environment Configuration
+  sentry_flutter: ^9.8.0
+  flutter_dotenv: ^6.0.0
+  logger: ^2.5.0
+
+  # Analytics
+  firebase_core: ^4.2.1
+  supabase_flutter: ^2.8.3
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
+  firebase_messaging: ^16.0.4
+
+  # OTA updates
+  shorebird_code_push: ^2.0.2
+
+  # Code generation
+  dart_mappable: ^4.3.0
+  freezed_annotation: ^3.1.0
+  mockito: ^5.4.5
+
+  stream_transform: any
+  vector_math: any
+dev_dependencies:
+  build_runner: ^2.4.14
+  freezed: ^3.2.3
+  dart_mappable_builder: ^4.3.0
+
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/images/
+    - assets/fonts/
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Black.ttf
+        - asset: assets/fonts/Nunito-BlackItalic.ttf
+        - asset: assets/fonts/Nunito-Bold.ttf
+        - asset: assets/fonts/Nunito-BoldItalic.ttf
+        - asset: assets/fonts/Nunito-ExtraBold.ttf
+        - asset: assets/fonts/Nunito-ExtraBoldItalic.ttf
+        - asset: assets/fonts/Nunito-ExtraLight.ttf
+        - asset: assets/fonts/Nunito-ExtraLightItalic.ttf
+        - asset: assets/fonts/Nunito-Italic.ttf
+        - asset: assets/fonts/Nunito-LightItalic.ttf
+        - asset: assets/fonts/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito-SemiBold.ttf
+        - asset: assets/fonts/Nunito-SemiBoldItalic.ttf

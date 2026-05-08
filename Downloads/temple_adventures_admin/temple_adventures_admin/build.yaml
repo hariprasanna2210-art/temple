@@ -1,0 +1,23 @@
+targets:
+  $default:
+    builders:
+      dart_mappable_builder:
+        generate_for:
+          include:
+            - lib/**.dart
+        options:
+          caseStyle: snakeCase
+          enumCaseStyle: snakeCase
+          discriminatorKey: type
+
+      freezed:
+        generate_for:
+          - lib/**.dart
+        options:
+          to_json: false
+          from_json: false
+
+      mockito|mockBuilder:
+        generate_for:
+          - lib/**.dart
+          - test/**.dart
